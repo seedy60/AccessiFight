@@ -1,0 +1,20 @@
+[project]
+name = "accessifight"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "accessible-output2==0.16",
+    "google-generativeai>=0.8.6",
+    "keyboard-handler",
+    "mss>=10.1.0",
+    "pillow>=12.1.1",
+    "pyinstaller>=6.19.0",
+    "pytesseract>=0.3.13",
+    "requests>=2.32.5",
+    "wxpython>=4.2.5",
+]
+
+[tool.uv.sources]
+keyboard-handler = { git = "https://github.com/accessibleapps/keyboard_handler" }
