@@ -34,7 +34,7 @@ Here are the instructions for running AccessiFight from its source code on Windo
     ```
     git clone https://github.com/seedy60/AccessiFight.git
     cd AccessiFight
-``    `
+    ``    `
 6. Install the required libraries.
     ```
     uv sync
